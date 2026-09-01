@@ -1,8 +1,8 @@
 .DS_Store
 
-# PICO-8 export artifacts
-*.zip
-*_web/
-*.html
-*.js
-*.bin/
+# PICO-8's own export output (produced by `export` inside PICO-8),
+# not the hand-built player in web/ + dist/
+/orbit.zip
+/orbit_web/
+/orbit_official.html
+/orbit_official.js
