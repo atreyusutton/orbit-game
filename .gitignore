@@ -1,0 +1,8 @@
+.DS_Store
+
+# PICO-8 export artifacts
+*.zip
+*_web/
+*.html
+*.js
+*.bin/
