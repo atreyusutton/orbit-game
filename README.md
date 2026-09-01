@@ -23,11 +23,19 @@ run
 
 ## Controls
 
+Two buttons in play. There is no thrust and no steering — all your
+control is *when* you grab and *when* you let go.
+
 | Key | Action |
 | --- | --- |
-| `←` `→` | Swing around the tethered planet |
-| `Z` | Tether / release |
-| `X` | Shield (has a cooldown) |
+| `Z` | Tether to the nearest planet / release |
+| `X` | Shield bubble (18 frames, 45-frame cooldown) |
+| Arrows | Menu and level select only |
+
+Tethering grabs the nearest planet within 45 units. Swing direction is
+set automatically from the cross product of your position and velocity,
+so you keep the way you were already going — approach angle is what
+decides the arc.
 
 ## Development
 
